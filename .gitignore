@@ -1,0 +1,28 @@
+# Archivos temporales de Visual Studio y compilacion .NET
+.vs/
+**/bin/
+**/obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.slnLaunch.user
+TestResults/
+.vscode/
+.idea/
+
+# Configuraciones locales y secretos
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/appsettings.*.local.json
+**/appsettings.Production.json
+**/secrets.json
+*.pfx
+*.p12
+*.key
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
